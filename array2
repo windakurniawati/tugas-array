@@ -1,0 +1,25 @@
+public class CobaArayLagii {
+
+    static int nis[][] = {{210651}, {210653}, {210652}};
+    static String nama[][] = {{"Enoph"}, {"Sogie"}, {"Ridho"}};
+
+    public static void tampil(String n) {
+        System.out.println("Identitas Siswa Angkatan 28");
+    }
+
+    public static void namanis(int n) {
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 1; j++) {
+                System.out.println(nama[0][j] + ":" + nis[0][j]);
+                System.out.println(nama[1][j] + ":" + nis[1][j]);
+                System.out.println(nama[2][j] + ":" + nis[2][j]);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        CobaArayMultiDimensi siswa = new CobaArayMultiDimensi();
+        tampil(null);
+        namanis(0);
+    }
+}
