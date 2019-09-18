@@ -1,0 +1,17 @@
+public class CobaArayLagi {
+
+    public static void main(String[] args) {
+        int nilai[] = new int[5];
+        nilai[0] = 74;
+        nilai[1] = 80;
+        nilai[2] = 76;
+        nilai[3] = 95;
+        nilai[4] = 90;
+        double ratarata = 0.0;
+        for (int i = 0; i < nilai.length; i++) {
+            ratarata += nilai[i];
+        }
+        ratarata /= nilai.length;
+        System.out.println("Nilai rata-rata = " + ratarata);
+    }
+}
